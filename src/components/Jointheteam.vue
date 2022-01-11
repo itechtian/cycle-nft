@@ -1,24 +1,24 @@
 <template>
   <div class="a5">
-      <div class="a5-head">
+      <div class="a5-head" data-aos="zoom-out">
         <h3>Join The Team</h3>
       </div>
-      <div class="imd">
-          <img src="https://cdn.dribbble.com/users/1295887/screenshots/6292703/client_2-01_4x.png?compress=1&resize=400x300" alt="">
+      <div class="imd animate__animated animate__jello animate__slower	3s animate__infinite	infinite" data-aos="zoom-out">
+          <img src="https://cdn.dribbble.com/users/1295887/screenshots/6292703/client_2-01_4x.png?compress=1&resize=400x300" class="" alt="">
       </div>
 
-      <div class="e-flex">
+      <div class="e-flex" data-aos="zoom-out">
           <span class="g"> Developers </span>
           <span>Python, Go, Java, Javascript, Rust</span>
       </div>
 
-       <div class="e-flex">
+       <div class="e-flex" data-aos="zoom-out">
           <span class="g"> Media </span>
           <span>Writing, Graphics</span>
       </div>
 
       <div class="email-div mb-5">
-          <div >
+          <div data-aos="zoom-out">
               <button class="email-btn shadow"> Send us a mail</button>
           </div>
       </div>

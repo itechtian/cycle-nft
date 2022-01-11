@@ -22,7 +22,7 @@
 
     <main>
       <section>
-        <div class="landing">
+        <div class="landing" >
           <div class="intro">
             <div class="intro-item animate__animated animate__lightSpeedInLeft">
               <div>
@@ -74,7 +74,7 @@
 
     <!-- ++++++  -->
 
-    <div class="container wrapper2 rounded-3">
+    <div class="container wrapper2 rounded-3" data-aos="zoom-out">
       <div class="secondLayer">
         <h2>Open-Window NFT auction on the Planet...</h2>
       </div>
@@ -82,7 +82,7 @@
         <div class="a1">
           <h4 class="f1">Only the Biggest Only the Best</h4>
         </div>
-        <div class="a2 animate__animated animate__bounce animate__slower	3s animate__infinite	infinite">
+        <div class="a2 animate__animated animate__pulse  animate__infinite	infinite">
           <img src="@/assets/image/nft2.png" alt="" width="450" height="500" />
         </div>
       </div>
@@ -92,7 +92,7 @@
       <hr />
     </div>
 
-    <div class="roadmap-wrappwer">
+    <div class="roadmap-wrappwer" data-aos="zoom-out">
       <div class="container road-map">
         <h3>ROADMAP</h3>
       </div>
@@ -109,7 +109,7 @@
         </div>
         <div class="container mt-5 mb-4">
           <img src="@/assets/image/roadmap.png" alt="" width="100%" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Location_dot_red.svg/1024px-Location_dot_red.svg.png" width="5%" class="animate-img" alt="">
+          <img src="https://freesvg.org/img/red-car.png" width="5%" class="animate-img" alt="">
         </div>
         <div class="row a3">
           <div class="col col-4">
@@ -124,7 +124,7 @@
       </div>
     </div>
     <div class="mt-5">
-      <div class="banner3">
+      <div class="banner3" data-aos="zoom-out">
         <h2>CyclesNFT is hosting the biggest...</h2>
       </div>
       <!-- -->
@@ -297,13 +297,14 @@
           </div>
           <div class="col">
             <div class="display_pic">
-              <div class="card" style="width: 16rem">
-                <img
+              <div class="card" style="width: 18rem">
+                <div class="flip-card-inner">
+                   <img
                   src="@/assets/image/nft1.png"
                   class="card-img-top"
                   alt="..."
                 />
-                <div class="card-body" style="background: #d8d8d8">
+                 <div class="card-body" style="background: #d8d8d8">
                   <div class="container text-start">
                     <h6 class="card-title">TERRAFORMA</h6>
                     <span class="card-text">Reserved price</span>
@@ -315,13 +316,15 @@
                     </div>
                   </div>
                 </div>
+
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="mailist">
+    <div class="mailist" data-aos="zoom-out">
   <div class="container">
     <h4>Join The Mailing List</h4>
   </div>
@@ -338,10 +341,12 @@
   </div>
 </div>
 
-<div class="a4">
+<div class="a4" data-aos="zoom-out">
   <div class="container-fluid">
     <div class="row a4row">
-      <div class="col a">
+      <div class="col a" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <h4 class="mb-3">I own an Art</h4>
         <div class="d-2ac">
           <button href="#" class="btn d-2ac-btn1">Go to Market</button>
@@ -372,6 +377,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Index",
 };
