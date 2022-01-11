@@ -144,7 +144,7 @@
                     <span class="card-text">Reserved price</span>
                     <h6>2.00 ETH <span class="card-text">($4,892.22)</span></h6>
                     <div class="d-2a">
-                      <button href="#" class="btn btn-outline-dark m-1">
+                      <button href="#" class="btn btn-outline-dark m-1 animate-animated animate__swing">
                         Go to Market
                       </button>
                     </div>
@@ -349,7 +349,7 @@
      data-aos-duration="2000">
         <h4 class="mb-3">I own an Art</h4>
         <div class="d-2ac">
-          <button href="#" class="btn d-2ac-btn1">Go to Market</button>
+          <button href="#" class="btn d-2ac-btn1 animate_animated animate__swing animate__infinite	infinite">Go to Market</button>
         </div>
         <!-- <div style="display:flex;justify-content:center;" class="mt-3">
         <p style="width:50%">Find new favorites, Place your bids</p>
@@ -394,6 +394,13 @@ export default {
   background-position: top;
   background-repeat: no-repeat;
   max-width: 100% !important;
+}
+
+.mail-button:hover{
+  background: #65615a;
+  transform: translateZ(90%,10%);
+  transition: .4s linear;
+  color: white;
 }
 header {
   border-bottom: solid purple 1px;
@@ -610,6 +617,7 @@ a {
   padding: 15px;
   border-radius: 360px;
   margin-left: -150px;
+  border: none;
 }
 
 .a4 {

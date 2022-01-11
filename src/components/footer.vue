@@ -32,6 +32,12 @@ export default {
   font-size: 45px;
   margin-left: 80px;
   color: white;
+  cursor: pointer;
+}
+
+.fab:hover{
+  transform: translateY(-30%);
+  transition: ease-in .3s;
 }
 </style>
 <style lang="css" scoped src= '@/assets/css/mobile.css'></style>
