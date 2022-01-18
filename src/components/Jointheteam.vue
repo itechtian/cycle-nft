@@ -1,10 +1,10 @@
 <template>
   <div class="a5">
-      <div class="a5-head" data-aos="zoom-out">
+      <div class="a5-head" data-aos="zoom-out" id="join">
         <h3>Join The Team</h3>
       </div>
-      <div class="imd animate__animated animate__jello animate__slower	3s animate__infinite	infinite" data-aos="zoom-out">
-          <img src="https://cdn.dribbble.com/users/1295887/screenshots/6292703/client_2-01_4x.png?compress=1&resize=400x300" class="" alt="">
+      <div class="imd" data-aos="zoom-out">
+          <img src="@/assets/image/jointeam.png" class="" alt="">
       </div>
 
       <div class="e-flex" data-aos="zoom-out">

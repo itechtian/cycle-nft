@@ -1,0 +1,52 @@
+.animate-img{
+    position: absolute;
+    left: 10%;
+    width: 2%;
+    animation: move 14s linear infinite;
+  }
+  
+  @keyframes move{
+    5%{left: 10%;}
+    10%{left: 20%;}
+    15%{margin-top: 1%;}
+    20%{left: 25%;}
+    25%{margin-top: 2%;}
+    30%{left: 24%;}
+    25%{margin-top: 6%;}
+    25%{margin-top: 6%;}
+    30%{left: 35%;}
+    30%{margin-top: 5%;}
+    35%{margin-top: 5%;}
+    40%{left: 36%;}
+    42%{left: 37%;}
+    44%{margin-top: 2%;}
+    45%{left: 40%;}
+    48%{margin-top: 2%;}
+    49%{left: 45%;}
+    50%{margin-top: 4%;}
+    52%{left: 49%;}
+    53%{margin-top: 5%;}
+    54%{left: 53%;}
+    55%{margin-top: 6%;}
+    54%{left: 54%;}
+    56%{left: 55%;}
+    58%{left: 56%;}
+    60%{left: 58%;}
+    62%{left: 60%;}
+    64%{margin-top: 4%;}
+    66%{left: 62%;}
+    68%{left: 63%;}
+    70%{margin-top: 3%;}
+    73%{left: 65%;}
+    75%{left: 67%;}
+    78%{left: 70%;}
+    78%{margin-top: 2%;}
+    80%{margin-top: 2%;}
+    82%{left: 74%;}
+    84%{margin-top: 5%;}
+    85%{margin-top: 5%;}
+    90%{left: 79%;}
+    95%{margin-top: 6%}
+    100%{left:85%; margin-top: 6%;}
+  
+  }

@@ -1,5 +1,5 @@
 <template>
-  <div class="iconWrapper">
+  <div class="iconWrapper mt-5">
     <div class="container social_icon">
       <i class="fab fa-discord"></i>
       <i class="fab fa-twitter-square"></i>
