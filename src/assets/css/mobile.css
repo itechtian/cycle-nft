@@ -11,16 +11,27 @@
         width: 100%;
         padding-top: 2%;
         height: 17vh !important;
+        position: relative !important;
       }
       
       .logo {
         
       }
+
+      ion-icon{
+        width:10%;
+        position:fixed;
+        right:10px;
+        bottom:10px;
+         z-index:1;
+         
+      }
       
       .header-item {
-        display: block !important;
-
+        display: flex;
+        flex-direction: column;
       }
+      
 
       .menu-tab{
           font-size: 25px;
@@ -35,25 +46,38 @@
       .logo-icon {
         width: 100%;
       }
+
+      .close{
+        
+      }
       
-      /* a {
-        margin: 30px;
+      a {
+        margin-top: 30px !important;
         text-decoration: none;
         color: black;
       }
-      
+            
+
       .button {
         background: black;
         color: white;
         padding: 5px;
         border-radius: 50px;
         border: none;
-        width: 17%;
+        margin-top: 3%;
+        width: 100% !important;
       }
-       */
      .nav-link{
-        display: none;
+        display: none !important;
+        width: 100% !important;
+        position: absolute;
+        flex-direction: column;
+        background-color: ivory;
+        top: 0;
+       
     }
+
+
 
 
     .landing {
@@ -183,8 +207,8 @@
       
       .board {
         display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         flex-direction: column !important;
       }
       
@@ -204,7 +228,7 @@
       .a2 > img{
           width: 300px;
           height: 300px;
-          margin-top:50px ;
+          margin-top:0px;
       }
 
       .gap {
@@ -283,7 +307,7 @@
       
       .a4 {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         display: flex;
         align-items: stretch;
         background: #65615a;
@@ -327,7 +351,7 @@
       
       .d-2ac-btn1 {
         background-color: #b7b3ab;
-        height: 15vh;
+        /* height: 15vh; */
       }
       
       .d-2ac-btn2 {
@@ -417,6 +441,26 @@
         border: none !important;
         height: 8vh;
         padding: 10px;
+      }
+
+      .mailist{
+        display:none;
+      }
+
+      .btn-mail{
+        background:#ffffff;
+        width: 50%;
+        height: 8vh;
+        border-radius: 20px !important;
+        display: block !important;
+      }
+
+      .bn{
+        height:20vh
+      }
+
+      .a5{
+        display: none;
       }
       
       

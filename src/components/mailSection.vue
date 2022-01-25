@@ -1,4 +1,5 @@
 <template>
+  <div class="bn">
    <div class="mailist" data-aos="zoom-out">
       <div class="mail-text" id="mail">
         <h4>Join The Mailing List</h4>
@@ -15,6 +16,8 @@
         </form>
       </div>
     </div>
+    <button class="btn btn-mail"> Send us a mail</button>
+  </div>
 </template>
 
 <script>
@@ -28,13 +31,27 @@ export default {
 
 
 .mailist {
-  color: #747063;
-  height: 40vh;
+  color: #ffffff;
+  width: 100%;
+
 }
 
 .mail-text > h4 {
   font-size: 45px;
   padding: 5px;
+}
+
+.btn-mail{
+  display: none !important;
+}
+
+.bn{
+  background: #6c665f;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+  margin-top:40px
 }
 
 .form-input {
@@ -51,12 +68,6 @@ export default {
   box-shadow: 2px 2px;
 }
 
-.mailform {
-  background: #73706b;
-  padding: 30px;
-  height: 70%;
-  padding-top:5%;
-}
 
 .mail-button {
   width: 15%;

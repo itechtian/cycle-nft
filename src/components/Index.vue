@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div id="home">
+     <a href="#home">
+ <ion-icon name="arrow-up-outline" class="" id="scrollUp"></ion-icon></a>
     <header>
       <div class="header-item">
         <div class="logo">
@@ -12,11 +14,38 @@
           <a href="#join">Join our team</a>
           <a href="#mail">Support</a>
           <a href="#nft-meme">MemeNFTs</a>
-          <button class="button">Contact</button>
+          <button class="button" id="open">Contact us</button>
         </div>
-        <i class="fas fa-bars menu-tab"></i>
+        <i
+          class="fas fa-bars menu-tab"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        ></i>
       </div>
     </header>
+    <div
+      class="offcanvas offcanvas-top"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <button
+        type="button"
+        class="btn-close text-reset mt-3 ml-3"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+
+      <a href="#roadmap">Roadmap</a>
+      <a href="#join">Join our team</a>
+      <a href="#mail">Support</a>
+      <a href="#nft-meme">MemeNFTs</a>
+      <button class="button" id="open">Contact us</button>
+    </div>
 
     <!-- ++++++  -->
 
@@ -28,7 +57,18 @@
               <div>
                 <h6 class="d-1">All things <span class="d-1span">Art</span></h6>
                 <h6 class="d-1">
-                  All things <span class="d-1span animate__animated animate__flash animate__delay-2s  animate__infinite infinite">Grand</span>
+                  All things
+                  <span
+                    class="
+                      d-1span
+                      animate__animated
+                      animate__flash
+                      animate__delay-2s
+                      animate__infinite
+                      infinite
+                    "
+                    >Grand</span
+                  >
                 </h6>
               </div>
               <div class="d-1a">
@@ -75,12 +115,14 @@
     <!-- ++++++  -->
 
     <div class="container wrapper2" data-aos="zoom-out">
-      <div class="secondLayer">
+      <div class="secondLayer mb-3">
         <h2>Open-Window NFT auction on the Planet...</h2>
       </div>
-      <div class="container board">
-        <div class="a1">
-          <h4 class="f1">Only the <span style="color:#b7b3ab">Biggest</span> Only the Best</h4>
+      <div class="container board mb-5">
+        <div class="a1 mb-5">
+          <h4 class="f1">
+            Only the <span style="color: #b7b3ab">Biggest</span> Only the Best
+          </h4>
         </div>
         <div
           class="a2 animate__animated animate__pulse animate__infinite infinite"
@@ -93,13 +135,25 @@
     <div class="gap">
       <hr />
     </div>
-
   </div>
 </template>
+
 
 <script>
 export default {
   name: "Index",
+
+  mounted() {
+     document.getElementById("scrollUp").style.visibility = 'hidden'
+     document.addEventListener('scroll', ()=>{
+      if(scrollY > 150){
+        document.getElementById("scrollUp").style.visibility = 'visible';
+      }else{
+        document.getElementById("scrollUp").style.visibility = 'hidden';
+      }
+    })
+
+  },
 };
 </script>
 
@@ -107,15 +161,16 @@ export default {
 <style lang="css" scoped src= '@/assets/css/mobile.css'></style>
 
 <style scoped>
-
 header {
   border-bottom: solid purple 1px;
   width: 100%;
   height: 15vh;
   padding-top: 2%;
+ 
+  background: #b7b3ab;
 }
 
-.mail-text > h4{
+.mail-text > h4 {
   font-size: 50px;
   margin: 15px;
 }
@@ -145,9 +200,13 @@ header {
 }
 
 a {
-  margin: 25px;
+  margin: 2%;
   text-decoration: none;
   color: black;
+}
+
+.offcanvas{
+  height: 50vh !important;
 }
 
 .button {
@@ -188,6 +247,28 @@ a {
   font-size: 20px;
   color: #110e1d;
   font-weight: 900;
+}
+
+ion-icon{
+  width:5%;
+  font-size:40px;
+  position:fixed;
+  right:5px;
+  bottom:10px;
+  z-index:1;
+  color: #ffffff;
+}
+
+ion-icon:hover{
+  color: #110e1d;
+  transition: .4s ease;
+}
+
+@media(max-width:999px){
+  ion-icon{
+    display: none;
+  }
+
 }
 
 .d-1span {
@@ -231,7 +312,7 @@ a {
   background: #110e1d;
   color: #f7f7f7;
   padding: 20px;
-  height: 80vh;
+  height: 60vh;
 }
 
 .secondLayer {
@@ -246,9 +327,25 @@ a {
 
 .a1 {
   display: flex;
-  width: 40%;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  width: 40%;
+ 
+  
+}
+
+@media(max-width:999px){
+  .a1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper2 {
+  background: #110e1d;
+  color: #f7f7f7;
+  padding: 20px;
+  height: 90vh;
+}
 }
 
 .f1 {
@@ -259,8 +356,6 @@ a {
 .gap {
   margin-top: 200px;
 }
-
-
 
 .a4 {
   width: 100%;

@@ -7,34 +7,48 @@
     <div class="nft-meme">
       <div>
        
-      <div class="row">
-        <div class="col mt-5">
+      <div class="nn">
+        <div class="nn-1 mt-5">
           <img src="@/assets/image/nft13.png" width="600px" height="500px" alt="">
         </div>
 
-        <div class="col m-4">
-          <div class="row mb-2">
-            <div class="col-8  col-md-3 m-3"><img src="@/assets/image/nft4.png" class="abn" alt="" width="170px" height="200px"></div>
-            <div class="col-8 col-md-3 m-3"><img src="@/assets/image/nft12.png" alt="" class="abn" width="170px" height="200px"></div>
-            <div class="col-8 col-md-3 m-3"><img src="@/assets/image/nft8.png" alt="" class="abn" width="170px" height="200px"></div>
+        <div class="nn-2 m-4">
+          <div class="nn-3 mb-2">
+            <div class=""><img src="@/assets/image/nft4.png"  alt="" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft12.png" alt=""  width="170px" height="200px"></div>
           </div>
-            <div class="row mb-2">
-            <div class="col-12 mb-2 col-md-3 m-3"><img src="@/assets/image/nft2.png" alt="" class="abn" width="170px" height="200px"></div>
-            <div class="col-12 mb-2 col-md-3 m-3"><img src="@/assets/image/nft13.png" class="abn" alt="" width="170px" height="200px"></div>
-            <div class="col-12 mb-2 col-md-3 m-3"><img src="@/assets/image/nft12.png" class="abn" alt="" width="170px" height="200px"></div>
+            <div class="nn-3 mb-2">
+            <div class=""><img src="@/assets/image/nft2.png" alt="" class="abn" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft13.png" class="abn" alt="" width="170px" height="200px"></div>
           </div>
-            <div class="row">
-            <div class="col-3 col-md-3 m-3"><img src="@/assets/image/nft11.png" alt="" class="abn" width="170px" height="200px"></div>
-            <div class="col-3 col-md-3 m-3"><img src="@/assets/image/nft10.png" alt="" class="abn" width="170px" height="200px"></div>
-            <div class="col-3 col-md-3 m-3"><img src="@/assets/image/nft3.png"  id="abn" class="abn"  width="170px" height="200px"></div>
+            <div class="nn-3">
+            <div class=""><img src="@/assets/image/nft11.png" alt="" class="abn" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft10.png" alt="" class="abn" width="170px" height="200px"></div>
+          </div>
+        </div>
+         <div class="nn-2-d m-4">
+          <div class="nn-3 mb-2">
+            <div class=""><img src="@/assets/image/nft4.png"  alt="" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft12.png" alt=""  width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft12.png" alt=""  width="170px" height="200px"></div>
+          </div>
+            <div class="nn-3 mb-2">
+            <div class=""><img src="@/assets/image/nft2.png" alt="" class="abn" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft13.png" class="abn" alt="" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft12.png" alt=""  width="170px" height="200px"></div>
+          </div>
+            <div class="nn-3">
+            <div class=""><img src="@/assets/image/nft11.png" alt="" class="abn" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft10.png" alt="" class="abn" width="170px" height="200px"></div>
+            <div class=""><img src="@/assets/image/nft12.png" alt=""  width="170px" height="200px"></div>
           </div>
         </div>
       </div>
       <div class="nav-control">
        <div class="nav-guard">
-        <button class="btn-transparent border-light m-2 btn"> gg </button>
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
         <span class="mt-3">O1/02</span>
-        <button class="btn-parent border-light btn m-2"> gg </button>
+        <ion-icon name="arrow-forward-circle-outline"></ion-icon>
 
       </div>
       </div>
@@ -47,31 +61,55 @@
 <script>
 export default {
   name: "NFt",
-
-  mounted(){
-
-      this.selectClass();
-  },
-
-  methods: {
-
-    selectClass(){
-      o = document.getElementsByClassName("abn");
-      var i;
-
-      for (i = 0; i < o.length; i++) {
-          o[i].addEventListener("click", ()=>{
-            console.log(i)
-          })
-      }  
-
-  }
-
-};
+}
 </script>
 
 <style>
+.nn{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.nn-2-d{
+  display: none;
+}
+
+.nn-2{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  align-items: center;
+}
+
+.nn-3{
+  display: flex;
+}
 .nav-control{
+  display: flex;
+ 
+}
+.nav-guard{
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+
+@media(min-width:999px){
+  .nn{
+    flex-direction: row;
+  }
+
+  .nn-2-d{
+    display: block;
+  }
+
+  .nn-2{
+    display: none;
+  }
+  .nav-control{
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -80,7 +118,13 @@ export default {
   width: 50%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  color: white;
 }
+}
+
+
+
 .a5{
   width: 100%;
 

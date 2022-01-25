@@ -7,6 +7,14 @@
           <img src="@/assets/image/jointeam.png" class="" alt="">
       </div>
 
+
+        <div class="a5-head-m" data-aos="zoom-out" id="join">
+        <h3>Developers</h3>
+      </div>
+      <div class="a5-head-m" data-aos="zoom-out" id="join">
+        <h3>Media</h3>
+      </div>
+
       <div class="e-flex" data-aos="zoom-out">
           <span class="g"> Developers </span>
           <span>Python, Go, Java, Javascript, Rust</span>
@@ -16,6 +24,8 @@
           <span class="g"> Media </span>
           <span>Writing, Graphics</span>
       </div>
+
+      
 
       <div class="email-div mb-5">
           <div data-aos="zoom-out">
@@ -57,6 +67,35 @@ export default {
   color: white;
   margin-top: 150px;
   margin-bottom: 70px;
+}
+
+.a5-head-m {
+ display: none;
+}
+
+
+@media(max-width:999px){
+  .e-flex{
+    display: none !important;
+  }
+  .email-div{
+    display: none !important;
+  }
+  .a5-head-m {
+  background: #6A665A;
+  border-radius: 360px;
+  width: 80%;
+  padding: 10px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 7px;
+  display: block;
+}
+.a5-head-m:hover{
+  background: #838382;
+;
+  transition: .3 ease;
+}
 }
 
 .imd{
