@@ -16,7 +16,7 @@
         </form>
       </div>
     </div>
-    <button class="btn btn-mail"> Send us a mail</button>
+    <button class="btn btn-mail" id="mail-phone"> Send us a mail</button>
   </div>
 </template>
 

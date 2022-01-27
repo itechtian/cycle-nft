@@ -1,7 +1,9 @@
 <template>
   <div class="a5"  data-aos="zoom-out">
-    <div class="a5-head"  id="nft-meme">
-      <h3>Meme NFT</h3>
+    <div class="a6-head" >
+      <div class="a5-head-child" id="nft-meme">
+        <h3>Meme NFT</h3>
+      </div>
     </div>
 
     <div class="nft-meme">
@@ -114,6 +116,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
 }
+
 .nav-guard{
   width: 50%;
   display: flex;
@@ -136,6 +139,28 @@ export default {
   align-items: center;
   width: 100%;
 }
+
+.a6-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 70px;
+
+}
+
+.a5-head-child{
+  width: 50%;
+  background: #110e1d;
+  border-radius: 360px;
+  width: 60%;
+  padding: 10px;
+  color: white;
+
+
+}
+
 .ra2{
     display: flex;
     flex-direction: column;

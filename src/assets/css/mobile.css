@@ -272,6 +272,12 @@
       .nft-row-mobile{
         display: block !important;
       }
+
+  .m-bn{
+    display: block;
+    height: 50%;
+    width: 100%;
+  }
       
       .mailist {
         color: #747063;
@@ -459,7 +465,12 @@
         height:20vh
       }
 
+
       .a5{
+        display: none;
+      }
+
+      .banner3{
         display: none;
       }
       

@@ -5,6 +5,7 @@
     </div>
     <!-- -->
   </div>
+  <hr>
 
   <div class="container nft-row mt-5">
     <div class="row a3" id="nft-row">
@@ -180,6 +181,8 @@
         </div>
       </div>
     </div>
+    <hr>
+
   </div>
 </template>
 

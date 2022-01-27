@@ -1,5 +1,5 @@
 <template>
-  <div class="a5">
+  <div class="a5-join">
       <div class="a5-head" data-aos="zoom-out" id="join">
         <h3>Join The Team</h3>
       </div>
@@ -51,7 +51,7 @@ export default {
   margin-right: 100px;
   padding: 10px;
 }
-.a5 {
+.a5-join {
   background-color: #b7b3ab;
   display: flex;
   justify-content: flex-start;

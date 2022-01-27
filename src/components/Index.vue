@@ -35,15 +35,14 @@
     >
       <button
         type="button"
-        class="btn-close text-reset mt-3 ml-3"
+        class="btn-close text-reset ml-5"
         data-bs-dismiss="offcanvas"
         aria-label="Close"
       ></button>
 
       <a href="#roadmap">Roadmap</a>
       <a href="#join">Join our team</a>
-      <a href="#mail">Support</a>
-      <a href="#nft-meme">MemeNFTs</a>
+      <a href="#mail-phone">Support</a>
       <button class="button" id="open">Contact us</button>
     </div>
 

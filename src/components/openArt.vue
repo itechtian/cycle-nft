@@ -1,5 +1,27 @@
 <template>
+  <br><br>
+  <div>
+    <div class="m-bn">
+    <div class="mailis" data-aos="zoom-out">
+      <div class="mail-text" id="mail">
+        <h5 style="color:#6c665f;">Join The Mailing List</h5>
+      </div>
+      <div class="mailform">
+        <form action="">
+          <input
+              type="email"
+              placeholder="Enter Your email address"
+              class="form-input"
+              required
+          />
+          <button type="submit" class="mail-button">Submit</button>
+        </form>
+      </div>
+    </div>
+    </div>
+    <br>
  <div class="a4" data-aos="zoom-out">
+
         <div class="a4row">
           <div
             class="a shadow p-3 m-3"
@@ -43,7 +65,7 @@
           </div>
         </div>
       </div>
-  
+  </div>
 </template>
 
 <script>
@@ -80,6 +102,10 @@ export default {
   align-items: center;
   padding: 3%;
   width: 100% !important;
+}
+
+.m-bn{
+  display: none;
 }
 
 .a4row > .col {

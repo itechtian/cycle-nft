@@ -3,6 +3,7 @@
   <Index />
   <Roadmap />
   <NFTrow />
+
   <OpenArt />
   <JoinTheTeam />
   <Mail />
@@ -20,6 +21,7 @@ import NFTrow from './components/nft-row.vue'
 import Mail from './components/mailSection.vue'
 import OpenArt from './components/openArt.vue'
 import NFt from './components/memeNft.vue'
+
 
 
 export default {
