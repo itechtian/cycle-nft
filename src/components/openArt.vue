@@ -36,10 +36,10 @@
                 class="
                   btn
                   btn-light
-                  p-4
-                  w-50
+                  
                   animate_animated animate__swing animate__infinite
                   infinite
+                  h-75
                 "
               >
                 View Gallery
@@ -53,10 +53,10 @@
           <div class="a">
             <h4 class="mb-3">I create an Art</h4>
             <div class="d-2ac">
-              <button href="#" class="btn btn-dark p-4 w-50">Go to Store</button>
+              <button href="#" class="btn btn-dark h-75 p-4 ">Go to Store</button>
             </div>
             <div style="display:flex;justify-content:center;" class="mt-3">
-            <p style="width:50%">
+            <p style="width:67%">
           Reach your audience. We are abstracting marketing and financial
           management. Focus, just.create.
         </p>
@@ -76,11 +76,10 @@ export default {
 <style lang="css" scoped src= '@/assets/css/mobile.css'></style>
 
 
-<style>
-
+<style scoped>
 .a4 {
   width: 100%;
-  height: 50vh;
+  height: auto;
   display: flex;
   align-items: center;
   background: #65615a;

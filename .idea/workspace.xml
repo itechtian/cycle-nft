@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad02955-5296-4bfb-a469-6e91034a5575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.bfdd840d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.6cfd30dd.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.afcdb962.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.afcdb962.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jointheteam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jointheteam.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mailSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mailSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/memeNft.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/memeNft.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nft-row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nft-row.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/openArt.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/openArt.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.c8a16037.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.c8a16037.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +50,7 @@
       <updated>1643143237926</updated>
       <workItem from="1643143242097" duration="4195000" />
       <workItem from="1643196601520" duration="1613000" />
-      <workItem from="1643235129061" duration="3310000" />
+      <workItem from="1643235129061" duration="3578000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,6 @@
     </div>
     <!-- -->
   </div>
-  <hr>
 
   <div class="container nft-row mt-5">
     <div class="row a3" id="nft-row">
@@ -216,9 +215,10 @@ export default {
 
 .nft-row {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   justify-content: center;
   display: flex;
+  /* align-items: center; */
 }
 
 .nft-row-mobile {

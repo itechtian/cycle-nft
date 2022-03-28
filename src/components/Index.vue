@@ -311,7 +311,7 @@ ion-icon:hover{
   background: #110e1d;
   color: #f7f7f7;
   padding: 20px;
-  height: 60vh;
+  height: auto;
 }
 
 .secondLayer {
@@ -321,7 +321,7 @@ ion-icon:hover{
 .board {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .a1 {
@@ -343,7 +343,12 @@ ion-icon:hover{
   background: #110e1d;
   color: #f7f7f7;
   padding: 20px;
-  height: 90vh;
+  height: 60vh;
+}
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 }
 

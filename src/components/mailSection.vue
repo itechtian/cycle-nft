@@ -63,6 +63,17 @@ export default {
   padding-left: 30%;
 }
 
+@media(max-width:999px){
+
+  .form-input {
+  width: 70%;
+  /* height: 10vh; */
+  border-radius: 360px;
+  border: none !important;
+  padding: 15px;
+}
+}
+
 .form-input:focus {
   outline: none;
   box-shadow: 2px 2px;

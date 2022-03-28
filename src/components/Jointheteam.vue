@@ -4,7 +4,7 @@
         <h3>Join The Team</h3>
       </div>
       <div class="imd" data-aos="zoom-out">
-          <img src="@/assets/image/jointeam.png" class="" alt="">
+          <img src="@/assets/image/nft.svg" class="" alt="">
       </div>
 
 
@@ -101,6 +101,10 @@ export default {
 .imd{
   margin-bottom: 40px;
 }
+
+/* .imd img{
+  width:100%
+} */
 
 .e-flex{
     border: solid #9E9B94;
