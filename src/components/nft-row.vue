@@ -76,7 +76,7 @@
       <div class="col col-3">
         <div class="display_pic">
           <div class="card" style="width: 16rem">
-            <img src="@/assets/image/nft1.png" class="card-img-top"   width="300px" height="250px" alt="..." />
+            <img src="@/assets/image/vc.png" class="card-img-top"   width="300px" height="250px" alt="..." />
             <div class="card-body" style="background: #d8d8d8">
               <div class="container text-start">
                 <h6 class="card-title">TERRAFORMA</h6>
@@ -159,7 +159,7 @@
           <div class="card" style="width: 18rem">
             <div class="flip-card-inner">
               <img
-                src="@/assets/image/nft2.png"
+                src="@/assets/image/vc.png"
                 class="card-img-top"
                 alt="..."
               />

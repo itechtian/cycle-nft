@@ -7,7 +7,7 @@
   <OpenArt />
   <JoinTheTeam />
   <Mail />
-  <NFt />
+  <!-- <NFt /> -->
   <Footer />
 </div>
 </template>
@@ -20,7 +20,7 @@ import Roadmap from './components/roadmap.vue'
 import NFTrow from './components/nft-row.vue'
 import Mail from './components/mailSection.vue'
 import OpenArt from './components/openArt.vue'
-import NFt from './components/memeNft.vue'
+// import NFt from './components/memeNft.vue'
 
 
 
@@ -33,7 +33,7 @@ export default {
    Mail,
    Roadmap,
    OpenArt,
-   NFt,
+  //  NFt,
    Footer,
   }
 }

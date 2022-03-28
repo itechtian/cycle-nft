@@ -24,7 +24,7 @@
 
         <div class="a4row">
           <div
-            class="a shadow p-3 m-3"
+            class="a p-3 m-3"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -39,7 +39,7 @@
                   
                   animate_animated animate__swing animate__infinite
                   infinite
-                  h-75
+                
                 "
               >
                 View Gallery
@@ -53,7 +53,7 @@
           <div class="a">
             <h4 class="mb-3">I create an Art</h4>
             <div class="d-2ac">
-              <button href="#" class="btn btn-dark h-75 p-4 ">Go to Store</button>
+              <button href="#" class="btn btn-dark">Go to Store</button>
             </div>
             <div style="display:flex;justify-content:center;" class="mt-3">
             <p style="width:67%">
